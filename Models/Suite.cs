@@ -11,8 +11,8 @@ namespace DesafioProjetoHospedagem.Models
             ValorDiaria = valorDiaria;
         }
 
-        public string TipoSuite { get; set; }
-        public int Capacidade { get; set; }
-        public decimal ValorDiaria { get; set; }
+        public string TipoSuite {get; set;}
+        public int Capacidade {get; set;}
+        public decimal ValorDiaria{get; set;}
     }
 }
